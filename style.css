@@ -1,0 +1,116 @@
+body {
+    background: radial-gradient(circle, rgba(102,0,255,1) 2%,
+    rgba(0,62,152,1) 15%,
+    rgba(6,1,56,1) 50%,
+    rgba(0,224,255,1) 78%,
+    rgba(0,55,179,1) 97%);
+    background-size: cover;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+header {
+    text-align: center;
+    color: #EEE;
+}
+
+.titulo {
+    text-shadow: 3px 2px 3px red, 1px 1px 1px black;
+}
+
+.container-calc {
+    width: 300px;
+    height: 470px;
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 3px 2px 3px red, 1px 1px 1px black;
+}
+
+.container-resultado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+#resultado {
+    display: block;
+    width: 270px;
+    height: 40px;
+    border: 1px solid #EEE;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #EEE;
+    font-size: 30px;
+    text-align: right;
+    
+}
+
+.calculadora-teclas {
+    display: flex;
+    margin: auto;
+    margin-bottom: 10px;
+    max-width: 280px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.teclas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    border: 1px solid #444;
+    border-radius: 10px;
+    background: linear-gradient(45deg, rgba(1,0,2,1) 15%, rgba(145,145,145,1) 50%);;
+    box-shadow: 3px 2px 3px red, 1px 1px 1px black;
+    color: #FFF;
+    margin-top: 5px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.teclas:hover {
+    background-color: #333;
+}
+
+.none {
+    display: none;
+}
+
+.igual {
+    height: 137px;
+}
+
+.zero {
+    width: 136px;
+    margin-top: -67px;
+}
+
+.ponto {
+    margin-right: 71px;
+    margin-top: -67px;
+}
+
+.teclas:hover {
+    transform: rotate(0.5deg) scale(1.2);
+}
+
+.nome:hover {
+    color: black;
+    text-shadow: 3px 2px 3px white 1px 1px 1px white;
+    transform:  scale(1.2);
+}
+
+.subtitulo:hover {
+    color: black;
+    text-shadow: 3px 2px 3px white 1px 1px 1px white;
+    transform:  scale(1.2);
+}
+
+.teclas:active {
+	color: #7f19c8;
+}

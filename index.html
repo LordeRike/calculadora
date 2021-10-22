@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header class="titulo">
+        <h1 class="nome">Calculadora</h1>
+        <h3 class="subtitulo">Henrique Azeredo</h2>
+    </header>
+    <div class="container-calc">
+        <div class="container-resultado">
+            <p id="resultado"></p>
+        </div>
+        <div class="calculadora-teclas">
+            <div class="teclas" onclick="clean()">C</div>
+            <div class="teclas" onclick="back()">CE</div>
+            <div class="teclas" onclick="insert('/')">/</div>
+            <div class="teclas" onclick="insert('*')">X</div>
+            <div class="teclas" onclick="insert('7')">7</div>
+            <div class="teclas" onclick="insert('8')">8</div>
+            <div class="teclas" onclick="insert('9')">9</div>
+            <div class="teclas" onclick="insert('-')">-</div>
+            <div class="teclas" onclick="insert('4')">4</div>
+            <div class="teclas" onclick="insert('5')">5</div>
+            <div class="teclas" onclick="insert('6')">6</div>
+            <div class="teclas" onclick="insert('+')">+</div>
+            <div class="teclas" onclick="insert('1')">1</div>
+            <div class="teclas" onclick="insert('2')">2</div>
+            <div class="teclas" onclick="insert('3')">3</div>
+            <div class="teclas igual" onclick="result()">=</div>
+            <div class="teclas zero" onclick="insert('0')">0</div>
+            <div class="teclas ponto" onclick="insert('.')">.</div>
+        </div>
+    </div>
+    
+</body>
+</html>
